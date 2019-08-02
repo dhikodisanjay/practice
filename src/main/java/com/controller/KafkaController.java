@@ -29,6 +29,7 @@ public class KafkaController {
         
         while (1==1) {
             kafkaTemplate2.send("mytopic", users);
+System.out.println("data produced")
 
 		}
         
